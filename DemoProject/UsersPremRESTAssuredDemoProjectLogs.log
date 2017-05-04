@@ -1,0 +1,4 @@
+01:56:55,291  WARN main basics:main:21 - This is warning
+ 01:56:55,294 ERROR main basics:main:22 - this is error
+ 01:56:55,294 FATAL main basics:main:23 - this is fatal
+ 
