@@ -14,7 +14,7 @@ public class basics1 {
 		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Zip Files\\chromedriver_win32/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");*/
-		Logger logger=Logger.getLogger("basics");
+		Logger logger=Logger.getLogger("basics1");
 	
 		    logger.info("This is info");
 		    logger.debug("This is debug");
