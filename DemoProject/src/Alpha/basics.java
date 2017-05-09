@@ -15,22 +15,22 @@ import io.restassured.http.ContentType;
 
 public class basics {
 
-	private static Logger logger=LogManager.getLogger(basics.class.getName());
-	public static void main(String[] args) {
+	//private static Logger logger=LogManager.getLogger(basics.class.getName());
+	//public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 	/*	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Zip Files\\chromedriver_win32/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.google.com/");*/
+		driver.get("https://www.google.com/");
 		//Logger logger=Logger.getLogger("basics");
 	
 	        logger.info("This is info");
 		    logger.debug("This is debug");
 			logger.warn("This is warning");
 			logger.error("this is error");
-			logger.fatal("this is fatal");
+			logger.fatal("this is fatal");*/
 		
-/*		@org.testng.annotations.Test
+		@org.testng.annotations.Test
 		public void getData()
 	{
 		//BaseURL or Host
@@ -52,6 +52,5 @@ public class basics {
 		        body("results[0].name" , equalTo("Sydney")).and().and().
 		        body("results[0].place_id" , equalTo("ChIJP3Sa8ziYEmsRUKgyFmh9AQM")).and().
 		        header("server", "pablo");
-	}*/
 	}
-}
+	}
